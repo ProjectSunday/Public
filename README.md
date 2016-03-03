@@ -16,11 +16,11 @@ Private room:
 
 **Projects that started at Project Sunday:**
 
-1. http://sharibble.net - Anonymous image sharing chat made in Meteor
-2. http://locallearners.net - Extension of Meetup.com for educational groups - made in Angular/React
-3. http://ugui.io - Framework for NW.js to make crossplatform desktop apps in minutes
-4. http://danodea.github.io/indy-brewery-map - Interactive map made with Knockout
-5. http://danodea.github.io - Dan's portfolio page made with Bootstrap
+1. [Sharibble](http://sharibble.net) - Anonymous image sharing chat made in Meteor
+2. [Local Learners](http://locallearners.net) - Extension of Meetup.com for educational groups - made in Angular/React
+3. [UGUI](http://ugui.io) - Framework for NW.js to make crossplatform desktop apps in minutes
+4. [Indy Brewery Map](http://danodea.github.io/indy-brewery-map) - Interactive map made with Knockout
+5. [DanOdea.net](http://danodea.github.io) - Dan's portfolio page made with Bootstrap
 
 **Projects being worked on:**
 
