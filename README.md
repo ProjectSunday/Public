@@ -27,3 +27,5 @@ Private room:
 1. [Scout-App 2](https://github.com/TheJaredWilcurt/scout-app) - A cross platform GUI for compiling Sass, made with UGUI
 2. [Kitten Shrink Ray](https://github.com/TheJaredWilcurt/KittenShrinkRay) - A GUI combining a multitude of image compression algorithms
 3. [Sans Pantelones](https://github.com/hai5nguy/sanspantalones) - Sharibble 2, designed to scale
+
+*Edit this to add your projects. Actual projects, not just tutorials you've completed.*
