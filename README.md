@@ -21,3 +21,9 @@ Projects that started at Project Sunday:
 3. http://ugui.io
 4. http://danodea.github.io/indy-brewery-map/
 5. http://danodea.github.io
+
+Projects being worked om:
+
+1. Scout-App 2
+2. Kitten Shrink Ray
+3. Sans Pantelones
