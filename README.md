@@ -12,9 +12,9 @@ Private room:
 
 * * *
 
-**## Project Sunday Spotlight:**
+## Project Sunday Spotlight:
 
-Projects that started at Project Sunday:
+**Projects that started at Project Sunday:**
 
 1. http://sharibble.net - Anonymous image sharing chat made in Meteor
 2. http://locallearners.net - Extension of Meetup.com for educational groups - made in Angular/React
