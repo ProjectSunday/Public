@@ -12,7 +12,7 @@ Private room:
 
 * * *
 
-## Project Sunday Spotlight:
+**## Project Sunday Spotlight:**
 
 Projects that started at Project Sunday:
 
@@ -22,7 +22,7 @@ Projects that started at Project Sunday:
 4. http://danodea.github.io/indy-brewery-map - Interactive map made with Knockout
 5. http://danodea.github.io - Dan's portfolio page made with Bootstrap
 
-Projects being worked on:
+**Projects being worked on:**
 
 1. [Scout-App 2](https://github.com/TheJaredWilcurt/scout-app) - A cross platform GUI for compiling Sass, made with UGUI
 2. [Kitten Shrink Ray](https://github.com/TheJaredWilcurt/KittenShrinkRay) - A GUI combining a multitude of image compression algorithms
