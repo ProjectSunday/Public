@@ -28,4 +28,8 @@ Private room:
 2. [Kitten Shrink Ray](https://github.com/TheJaredWilcurt/KittenShrinkRay) - A GUI combining a multitude of image compression algorithms
 3. [Sans Pantelones](https://github.com/hai5nguy/sanspantalones) - Sharibble 2, designed to scale
 
+**Challenges (Coding Exercises):**
+
+1.  [Webpack Setup](https://github.com/ProjectSunday/webpack-setup) - Simple exercise to show how webpack bundling works.
+
 *Edit this to add your projects. Actual projects, not just tutorials you've completed.*
