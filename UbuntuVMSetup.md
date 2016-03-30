@@ -1,3 +1,7 @@
+# Machine Setup for an Ubuntu VM
+
+Though a lot of the stuff in the middle is the same for any OS.
+
 ## Virtual Machine Setup
 
 1. Download Ubuntu.iso from [Ubuntu.com](http://ubuntu.com)
@@ -88,20 +92,21 @@
   * Pretty JSON
   * Text Pastry
  * `CTRL + SHIFT + P` > PackageResourceViewer: Open Resource > Theme - Default > Default.sublime-theme
-    ```
-    {
-        "class": "icon_file_type",
-        "content_margin": [0,0]
-    },
-    {
-        "class": "icon_folder",
-        "content_margin": [0,0]
-    },
-    {
-        "class": "icon_folder_loading",
-        "content_margin": [0,0]
-    }
-    ```
+
+ ```
+ {
+     "class": "icon_file_type",
+     "content_margin": [0,0]
+ },
+ {
+     "class": "icon_folder",
+     "content_margin": [0,0]
+ },
+ {
+     "class": "icon_folder_loading",
+     "content_margin": [0,0]
+ }
+ ```
  * `CTRL + SHIFT + F` > Where: `~/Github, -*/node_modules/*, -*/.git/*, -*/bower_components/*`
  * Menu > Preferences > Settings - User >
     ```
