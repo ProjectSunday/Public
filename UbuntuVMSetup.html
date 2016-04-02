@@ -174,13 +174,31 @@
      "content_margin": [0,0]
  }</code></pre>
 
-<li><code>CTRL + SHIFT + F</code> &gt; Where: <code>~/Github, -*/node_modules/*, -*/.git/*, -*/bower_components/*</code></li>
+<li>Press <code>CTRL + SHIFT + F</code> in the "Where:" section, use one of the following:
+  <ul>
+    <li><code>~/Github, -*/node_modules/*, -*/.git/*, -*/bower_components/*</code></li>
+    <li><code>&lt;project&gt;, -*/node_modules/*, -*/.git/*, -*/bower_components/*</code></li>
+  </ul>
+</li>
 <li>Menu &gt; Preferences &gt; Settings - User ></li>
 
 <pre><code>    "folder_exclude_patterns":
     [
         "Application"
     ],</code></pre>
+
+<li>Preferences > Key Bindings - User</li>
+
+<pre><code>[
+    {
+        "keys": ["ctrl+tab"],
+        "command": "next_view"
+    },
+    {
+        "keys": ["ctrl+shift+tab"],
+        "command": "prev_view"
+    }
+]</code></pre>
 
 <h2>Customization:</h2>
 
