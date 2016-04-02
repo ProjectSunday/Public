@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Machine Setup for an Ubuntu VM</title>
+</head>
+<body>
+
+<h1>Machine Setup for an Ubuntu VM</h1>
+
+<p>Though a lot of the stuff in the middle is the same for any OS.</p>
+
+<ol>
+
+<h2>Virtual Machine Setup</h2>
+
+<li>Download Ubuntu.iso from <a href="http://ubuntu.com">Ubuntu.com</a></li>
+<li>Download Oracle VM Virtual Box - <a href="https://www.virtualbox.org/wiki/Downloads">virtualbox.org/wiki/Downloads</a></li>
+<li>Install Virtual Box</li>
+<li>Install Extensions for it</li>
+<li>Create a new virtual machine
+  <ul>
+    <li>Give it at least 1.5GB of RAM, no more than 50% of total RAM</li>
+    <li>Create new Hard Disk, VMDK, Dynamic, 2GB split checked</li>
+    <li>HDD Space, 12-20 GB is typically good.</li>
+  </ul>
+</li>
+<li>Right-Click &gt; Settings
+  <ul>
+    <li>General &gt; Advanced &gt; Bidirectional Clipboard and Drag/Drop</li>
+    <li>System &gt; Processor &gt; Usually you want 2 processors, no more than half of your total (if you have 8 cores, pick 2, 3, or 4).</li>
+    <li>Display &gt; Screen &gt; 32MB of Video Memory is usually plenty. No more than 50% (okay to aim low if you have little to spare, 16MB works fine too).</li>
+    <li>Storage &gt; Optical Drive Dropdown &gt; Choose Virtual Optical Disk File &gt; Ubuntu.iso you downloaded in step 1</li>
+  </ul>
+</li>
+<li>Start up VM</li>
+<li>Install Ubuntu
+  <ul>
+    <li>Make your password something easy like the number 0. Ubuntu will ask you to type it in every .3 miliseconds, you'll thank me later.</li>
+    <li>Automatic Login</li>
+    <li>Install updates while installing the OS</li>
+  </ul>
+</li>
+
+<h2>Setting up your OS</h2>
+
+<li>Install updates, reboot, install updates, reboot, etc.</li>
+<li>In the Virtual box menu &gt; Devices &gt; "Insert Guest Additions CD image..."</li>
+<li>Install Virtual Box stuff and reboot when done. Eject fake disc if it's still in there.</li>
+<li>Back in Ubuntu &gt; System Settings &gt; Brightness &amp; Lock &gt; Never | Off | uncheck require pw</li>
+<li>Change desktop background if you want by Right-clicking it</li>
+<li>Open Firefox, adjust all the browser settings to your liking.</li>
+
+<h2>Uninstall Software</h2>
+
+<li>Start button at top of dock &gt; Applications button at bottom of screen &gt; Installed (See X more results) &gt; Right-click on a program to uninstall
+  <ul>
+    <li>Anything Libre Office</li>
+    <li>Landscape</li>
+    <li>Anything else you don't need, like games or Thunderbird Mail</li>
+  </ul>
+</li>
+
+<h2>Install Software</h2>
+
+<li><a href="http://sublimetext.com/3">sublimetext.com/3</a> - download the .deb file and run it. It will open the Software Center. Click Install. Open it and lock to dock.</li>
+<li>Any other browser you want, like Chromium or Opera, or just stick with Firefox</li>
+
+<h2>Set up Dev environment</h2>
+
+<li>Open up terminal and run the following:
+  <ol>
+    <li><code>sudo apt-get update</code></li>
+    <li><code>sudo apt-get install unity-tweak-tool</code></li>
+    <li><code>sudo apt-get install compizconfig-settings-manager</code></li>
+    <li><code>sudo apt-get install -y nodejs</code></li>
+    <li><code>sudo apt-get install -y build-essentials</code></li>
+    <li><code>sudo apt-get install npm</code></li>
+    <li><code>sudo ln -s /usr/bin/nodejs /usr/bin/node</code></li>
+    <li><code>sudo apt-get install git</code></li>
+  </ol>
+</li>
+<li><a href="http://syntevo.com/smartgit/download">syntevo.com/smartgit/download</a> - <strong>Scroll down</strong> and find the Debian package &gt; Download and Install SmartGit</li>
+<li>Open Files &gt; Computer &gt; Home &gt; drag your user folder into sublime text after opening it to create a sidebar.</li>
+<li>Create a GitHub folder in your user folder (<code>mkdir ~/GitHub</code>)</li>
+<li>In ST3 open <code>~/.bashrc</code> and add this at the bottom and save:</li>
+
+<pre><code>
+    alias dir='ls'
+    alias cd..='cd ..'
+    alias cls='clear'
+    alias csl='clear'
+    alias home='cd ~/GitHub
+    clear'
+</code></pre>
+<li>Open SmartGit
+  <ul>
+    <li>I understand/Non-commercial &gt; Next &gt; I confirm soley &gt; OK</li>
+    <li>Leave Username/Email blank &gt; next</li>
+    <li>User SmartGit as SSH client &gt; next</li>
+    <li>GitHub &gt; Generate API Token &gt; Use GitHub password for Master Password &gt; OK</li>
+    <li>Browser launches &gt; Log in to Github if not already &gt; Copy code &gt; paste it into SmartGit &gt; Authenticate &gt; Accept &gt; Next</li>
+    <li>Uncheck auto-send crash &gt; Finish</li>
+    <li>Clone Existing Repo &gt; OK &gt; Dropdown &gt; github.com &gt; pick repo &gt; Select &gt; Next</li>
+    <li>Include Sub Check | Fetch all Check | Create Up Uncheck &gt; Next</li>
+    <li>Path: <code>~/GitHub/Whatever your repo name is</code></li>
+  </ul>
+</li>
+<li>Open Sublime Text
+  <ul>
+    <li>Go to <a href="http://packagecontrol.io">packagecontrol.io</a> &gt; install now &gt; copy the code</li>
+    <li>In ST3 &gt; <code>CTRL + ~</code> &gt; Paste &gt; <code>Enter</code> &gt; OK &gt; <code>ESC</code></li>
+    <li><code>CTRL + SHIFT + P</code> &gt; Install &gt; <code>Enter</code>
+      <ul>
+        <li>PackageResourceViewer</li>
+        <li>Sidebar Enhancements</li>
+        <li>BufferScroll</li>
+        <li>Trailing Spaces</li>
+        <li>Sass</li>
+        <li>EditorConfig</li>
+        <li>Monokai JSON+</li>
+        <li>Pretty JSON</li>
+      </ul>
+    </li>
+    <li><code>CTRL + SHIFT + P</code> &gt; PackageResourceViewer: Open Resource &gt; Theme - Default &gt; Default.sublime-theme</li>
+  </ul>
+</li>
+
+<pre><code>
+ {
+     "class": "icon_file_type",
+     "content_margin": [0,0]
+ },
+ {
+     "class": "icon_folder",
+     "content_margin": [0,0]
+ },
+ {
+     "class": "icon_folder_loading",
+     "content_margin": [0,0]
+ }
+</code></pre>
+
+<li><code>CTRL + SHIFT + F</code> &gt; Where: <code>~/Github, -*/node_modules/*, -*/.git/*, -*/bower_components/*</code></li>
+<li>Menu &gt; Preferences &gt; Settings - User ></li>
+
+<pre><code>
+    "folder_exclude_patterns":
+    [
+        "Application"
+    ],
+</code></pre>
+
+<h2>Customization:</h2>
+
+<li>Remove junk from sidebar (Libre Office, Amazon, etc.) and add stuff to it. Here's what you should have:
+  <ul>
+    <li>Start Button</li>
+    <li>Ubuntu Software Center</li>
+    <li>Files</li>
+    <li>SmartGit</li>
+    <li>Firefox</li>
+    <li>System Settings</li>
+    <li>Sublime Text</li>
+    <li>Software Updater</li>
+    <li>Terminal</li>
+  </ul>
+</li>
+<li>Start &gt; Search: "CompizConfig Settings Manager"
+  <ul>
+    <li>Uncheck all Effects and Animations and Fading Windows</li>
+  </ul>
+</li>
+<li>Open Files &gt; Home &gt; <code>CTRL + H</code> (unhide files)</li>
+
+</ol>
+
+</body>
+</html>
