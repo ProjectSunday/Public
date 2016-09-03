@@ -1,4 +1,11 @@
 
+## The Cardinal Rules of Project Sunday
+
+1. If you are at Project Sunday, you must work on a project.
+1. If you do not have a project to work on, you must work on someone eles's project.
+1. If you don't have the skills to work on someone's project, someone will work with you to get those skills.
+
+
 ## Project Sunday Spotlight:
 
 **Projects that started at Project Sunday:**
