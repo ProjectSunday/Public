@@ -12,7 +12,7 @@ Create on [Codepen.io](http://codepen.io) or [JSFiddle.net](http://jsfiddle.net)
 4. Data must be store in your JavaScript
 
 ```
- [Dropdown (v)]
+ [Dropdown   ▼]
  | Semi-Truck |
  | Motorcycle |
   ¯¯¯¯¯¯¯¯¯¯¯¯
