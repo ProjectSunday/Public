@@ -1,6 +1,6 @@
 This is the process your code and comments should go through.
 
-1. You understand the problem, and how to solve it with code, quickly write it out, don't waste time thinking about names, just focus on logic.
+1. You understand the problem, and how to solve it with code. Quickly write it out, don't waste time thinking about names, just focus on logic.
 
     ```
     var x = $(thing).height();
@@ -21,7 +21,7 @@ This is the process your code and comments should go through.
     }
     ```
 
-1. Refactor, use the language you wrote in your comments to make the code easier to read, replacing all the comments.
+1. Refactor. Use the language you wrote in your comments to make the code easier to read, replacing all the comments.
 
     ```
     var sidebarHeight = $('.sidebar').height();
