@@ -61,6 +61,6 @@ A literal comment is good for working out better variable/function naming. And s
 
 A contextual comment gives context to your code, and supplies meta data that will be useful to those who are viewing this code for the first time. These should be used whenever possible. If there is suplemental information that is not conveyed, it should be documented with the code, in context.
 
-All lines require literal comments, even if they are only mentally written before being discarded. We are both in agreement on this.
+All lines require literal comments, even if they are only mentally written before being discarded.
 
 Not all lines require contextual comments. But anytime they *can* have them, they *must*. Otherwise you are doing a disservice to those who come after you.
