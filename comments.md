@@ -4,7 +4,7 @@ This is the process your code and comments should go through.
 
     ```
     var x = $(thing).height();
-    if (x > 248) {
+    if (x < 248) {
         $(otherThingy).css('width', 300);
     }
     ```
@@ -15,7 +15,7 @@ This is the process your code and comments should go through.
     //Get the height of the sidebar
     var x = $(thing).height();
     //If the sidebar height is less than 248px
-    if (x > 248) {
+    if (x < 248) {
         //Set the navigation in the sidebar to be 300px wide
         $(otherThingy).css('width', 300);
     }
@@ -25,7 +25,7 @@ This is the process your code and comments should go through.
 
     ```
     var sidebarHeight = $('.sidebar').height();
-    if (sidebarHeight > 248) {
+    if (sidebarHeight < 248) {
         $('.sidebar nav').css('width', 300);
     }
     ```
@@ -37,7 +37,7 @@ This is the process your code and comments should go through.
     // We need to get the sidebar height because the UI relies on a 3rd party xyz module for our advertising that takes up height in the sidebar
     var sidebarHeight = $('.sidebar').height();
     // We specifically check this height because it's based on the default size of the advertising iframe from xyz. 248 is unique to xyz.
-    if (sidebarHeight > 248) {
+    if (sidebarHeight < 248) {
         // Because of xyz's requirements the nav needs to be betwen 280 & 345
         $('.sidebar nav').css('width', 300);
     }
