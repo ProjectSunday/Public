@@ -9,7 +9,7 @@ This is the process your code and comments should go through.
     }
     ```
 
-1. Right a comment explaining your code (*Literal comments*)
+1. Write a comment explaining your code (*Literal comments*)
 
     ```
     //Get the height of the sidebar
