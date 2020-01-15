@@ -177,6 +177,9 @@
         <li><strong>PackageResourceViewer</strong> - Lets you edit your themes</li>
         <li><strong>Sidebar Enhancements</strong> - Mandetory for daily Sublime use, customize this one as needed</li>
         <li><strong>Trailing Spaces</strong> - Highlights trailing spaces in Pink, also can auto delete them from Edit menu. Annoying for 5 minutes, then it's pretty great</li>
+        <li><strong>SublimeCodeIntel</strong> - This one requires installing some python stuff first before it will work. Look it up. Pretty easy. Worth it.</li>
+        <li><strong>SublimeLinter</strong> - Linting engine compatible with many different linters</li>
+        <li><strong>SublimeLinter-eslint</strong> - Plugin for SublimeLinter to show you what lines of code are failing ESLint</li>
         <li><strong>Sass</strong> - sass/scss syntax highlighting</li>
         <li><strong>EditorConfig</strong> - See the editor config website</li>
         <li><strong>Monokai JSON+</strong> - Colors different nested objects in JSON, was better in ST2</li>
@@ -186,6 +189,7 @@
         <li><strong>MoveTab</strong> - Keyboard shortcut to move tabs</li>
         <li><strong>Jest</strong> - Helpers for Jest (JS Testing)</li>
         <li><strong>GitSavvy</strong> - I was told this is good, I don't know</li>
+        <li><strong>ColorSchemeEditor</strong> - Modify colors in sublime, good for editing the little dot that shows up next to a line when it fails a linting</li>
         <li><strong>Vue Syntax Highlight</strong> - Great, though if you manually download it from <a href="https://github.com/vuejs/vue-syntax-highlight" target="_blank">GitHub</a> it has better ST3 support</li>
         <li><strong>Vuejs Snippets</strong> - I've also manually installed <a href="https://github.com/sdras/vue-sublime-snippets" target="_blank">Sara Drasners snippets</a> and modified them some</li>
         <li><strong>BufferScroll</strong> - Keeps track of what you have code folded, multi-cursors, and scroll position on file close. (<a href="https://github.com/evandrocoan/BufferScroll" target="_blank">requires manual install</a>)</li>
@@ -217,12 +221,19 @@
 <li>Menu &gt; Preferences &gt; Settings</li>
 
 <pre><code>{
-    "folder_exclude_patterns": [ "Application" ],
-    "font_options": [ "directwrite", "subpixel_antialias" ],
+    "caret_style": "smooth",
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+    "folder_exclude_patterns": [
+        "Application"
+    ],
+    "font_options": [
+        "directwrite",
+        "subpixel_antialias"
+    ],
     "font_size": 10,
-    "ignored_packages": [ "Vintage" ],
-    "show_definitions": false,
-    "theme": "Legacy.sublime-theme",
+    "ignored_packages": [
+        "Vintage"
+    ],
     "index_exclude_patterns": [
         "*.log",
         "*/node_modules/*",
@@ -231,8 +242,12 @@
         "*/dist/*",
         "*/unit/coverage/*",
         "*/package-lock.json"
-    ]
-}</code></pre>
+    ],
+    "show_definitions": false,
+    "show_git_status": false,
+    "theme": "Legacy.sublime-theme"
+}
+</code></pre>
 
 <li>Preferences &gt; Key Bindings</li>
 
